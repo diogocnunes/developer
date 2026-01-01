@@ -23,18 +23,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Scripts & Styles -->
-    @if ($page->production)
-        <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/build/css/main.css">
-        <script defer src="{{ $page->baseUrl }}/assets/build/js/main.js"></script>
-    @else
-        <!-- Vite Dev Server -->
-        <script type="module" src="http://localhost:5173/{{ '@' }}vite/client"></script>
-        <link rel="stylesheet" href="http://localhost:5173/source/_assets/css/main.css">
-        <script type="module" src="http://localhost:5173/source/_assets/js/main.js"></script>
-    @endif
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-</head>
+        <!-- Scripts & Styles -->
+        @if (!$page->production)
+            <script type="module" src="http://localhost:5173/{{ '@' }}vite/client"></script>
+        @endif
+        <link rel="stylesheet" href="{{ $page->vite('css/main.css') }}">
+        <script type="module" src="{{ $page->vite('js/main.js') }}"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
 <body
         x-data="{
             darkMode: localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches),
