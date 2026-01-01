@@ -7,6 +7,13 @@
     <meta name="description" content="{{ $page->description }}">
     <title>{{ $page->title }}</title>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    <link rel="manifest" href="/assets/images/site.webmanifest">
+    <meta name="theme-color" content="#4f46e5">
+
     <script>
         if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark');
@@ -19,7 +26,6 @@
     <meta property="og:url" content="{{ $page->getUrl() }}">
     <meta property="og:title" content="{{ $page->title }}">
     <meta property="og:description" content="{{ $page->description }}">
-    {{-- Importante: OG Image precisa de URL absoluto --}}
     <meta property="og:image" content="https://diogonunes.dev/assets/images/social-card.jpg">
 
     <meta property="twitter:card" content="summary_large_image">
@@ -41,11 +47,9 @@
 <body
         x-data="{
         darkMode: document.documentElement.classList.contains('dark'),
-
         toggleTheme() {
             this.darkMode = !this.darkMode;
             localStorage.setItem('theme', this.darkMode ? 'dark' : 'light');
-
             if (this.darkMode) {
                 document.documentElement.classList.add('dark');
             } else {
