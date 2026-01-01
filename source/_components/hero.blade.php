@@ -1,4 +1,7 @@
 <section class="flex flex-col items-center justify-center py-20 px-6 text-center bg-white dark:bg-slate-900 transition-colors duration-300">
+
+    @include('_components.status_indicator')
+
     <div class="mb-6 inline-flex items-center px-4 py-1.5 rounded-full border border-indigo-100 bg-indigo-50 dark:bg-indigo-900/30 dark:border-indigo-500/30">
         <span class="flex h-2 w-2 rounded-full bg-indigo-500 mr-2"></span>
         <span class="text-sm font-medium text-indigo-700 dark:text-indigo-300">
