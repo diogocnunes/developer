@@ -6,7 +6,7 @@
 
         <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-8 items-center opacity-70">
             <div class="group flex justify-center transition-all duration-300 hover:-translate-y-1">
-                <img src="https://cdn.worldvectorlogo.com/logos/laravel.svg"
+                <img src="https://cdn.worldvectorlogo.com/logos/laravel-wordmark-1.svg"
                      alt="Laravel" title="Laravel"
                      class="h-8 w-auto grayscale group-hover:grayscale-0 transition-all">
             </div>
@@ -30,19 +30,19 @@
             </div>
 
             <div class="group flex justify-center transition-all duration-300 hover:-translate-y-1">
-                <img src="https://cdn.worldvectorlogo.com/logos/php-1.svg"
+                <img src="https://cdn.worldvectorlogo.com/logos/php-4.svg"
                      alt="PHP" title="PHP"
                      class="h-8 w-auto grayscale group-hover:grayscale-0 transition-all">
             </div>
 
             <div class="group flex justify-center transition-all duration-300 hover:-translate-y-1">
-                <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
+                <img src="https://cdn.worldvectorlogo.com/logos/mysql-logo-pure.svg"
                      alt="MySQL" title="MySQL"
                      class="h-8 w-auto grayscale group-hover:grayscale-0 transition-all">
             </div>
 
             <div class="group flex justify-center transition-all duration-300 hover:-translate-y-1">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Alpine_js.svg"
+                <img src="https://cdn.worldvectorlogo.com/logos/alpinejs-2.svg"
                      alt="Alpine.js" title="Alpine.js"
                      class="h-6 w-auto grayscale group-hover:grayscale-0 transition-all">
             </div>
