@@ -2,5 +2,5 @@
   "framework": null,
   "buildCommand": null,
   "outputDirectory": "build_production",
-  "ignoreCommand": "git diff HEAD^ HEAD --quiet ."
+  "ignoreCommand": "exit 0"
 }
