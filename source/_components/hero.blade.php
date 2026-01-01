@@ -33,7 +33,10 @@
     <div class="mt-12 flex items-center gap-6 text-slate-400">
         <a href="https://www.linkedin.com/in/diogocnunes/" class="hover:text-indigo-500 transition-colors">LinkedIn</a>
         <span class="w-1 h-1 rounded-full bg-slate-300"></span>
-        <a href="mailto:diogocnunes@gmail.com" class="hover:text-indigo-500 transition-colors">Email</a>
+        <a href="/contact" class="px-8 py-3 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white font-semibold rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 transition-all flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            Contact Me
+        </a>
         <span class="w-1 h-1 rounded-full bg-slate-300"></span>
         <span>Lisbon, Portugal 🇵🇹</span>
     </div>

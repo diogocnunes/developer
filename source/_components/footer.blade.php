@@ -17,20 +17,17 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
-                <h4 class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-4">Contact</h4>
-                <ul class="space-y-2">
-                    <li><a href="mailto:diogocnunes@gmail.com" class="text-slate-300 hover:text-white transition-colors">diogocnunes@gmail.com</a></li>
-                    <li class="text-slate-300">(+351) 936 301 867</li>
-                    <li class="text-slate-300 italic">Lisbon / Remote</li>
-                </ul>
+                <h4 class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-4">Direct Contact</h4>
+                <p class="text-slate-300 mb-4">Ready to start? Use the secure contact form or find me on social media.</p>
+                <a href="/contact" class="text-indigo-400 font-bold hover:underline">Go to Contact Form →</a>
             </div>
 
             <div>
                 <h4 class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-4">Social</h4>
                 <ul class="space-y-2 text-slate-300">
                     <li><a href="https://bit.ly/diogo-linkedin" target="_blank" class="hover:text-white transition-colors">LinkedIn</a></li>
-                    <li><a href="https://x.com/teu-usuario" target="_blank" class="hover:text-white transition-colors">Twitter (X)</a></li>
-                    <li><a href="https://github.com/teu-usuario" target="_blank" class="hover:text-white transition-colors">GitHub</a></li>
+                    <li><a href="https://x.com/diogocnunes" target="_blank" class="hover:text-white transition-colors">Twitter (X)</a></li>
+                    <li><a href="https://github.com/diogocnunes" target="_blank" class="hover:text-white transition-colors">GitHub</a></li>
                 </ul>
             </div>
 
