@@ -3,7 +3,11 @@
         <div class="flex flex-col md:flex-row items-center gap-8 p-8 md:p-12">
 
             <div class="w-48 md:w-64 flex-shrink-0 drop-shadow-2xl transform hover:scale-105 transition-transform duration-500">
-                <img src="/assets/images/laravel-certification.png" alt="Official Laravel Senior Developer Badge" class="w-full h-auto">
+                <img src="/assets/images/laravel-certification.webp"
+                     alt="Laravel Senior Developer Badge"
+                     width="256"
+                     height="256"
+                     class="w-full h-auto">
             </div>
 
             <div class="flex-1 text-center md:text-left">
