@@ -10,22 +10,22 @@
 
     <div class="space-y-4">
         @component('_components.experience_card', [
-            'company' => 'Ministério Público / Polícia Judiciária',
-            'role' => 'Senior Full-Stack Developer',
-            'period' => '2019 — Present',
+            'company' => 'PDMFC (Senior Engineer & Team Leader)',
+            'role' => 'Outsourced to PGR & Judicial Police',
+            'period' => '2017 — Present',
             'location' => 'Lisbon, Portugal',
-            'tags' => ['Laravel 11', 'Vue.js 3', 'Docker', 'Oracle', 'High Security'],
-            'impact' => 'Architecting critical information systems with a focus on data integrity, audit trails, and secure interoperability between judicial entities.'
+            'tags' => ['Laravel 11', 'PHP 8.3', 'Team Lead', 'GovTech', 'Oracle'],
+            'impact' => 'Leading engineering teams to build secure, high-stakes judicial systems. Expert in Laravel Nova customization and end-to-end CI/CD pipeline management.'
         ])
         @endcomponent
 
         @component('_components.experience_card', [
             'company' => 'Philip Morris International',
-            'role' => 'Senior Software Engineer',
-            'period' => '2016 — 2019',
-            'location' => 'Global / Remote',
-            'tags' => ['PHP 8', 'Microservices', 'AWS', 'CI/CD'],
-            'impact' => 'Led the digital transformation of legacy systems, optimizing supply chain logic and reducing data processing latency by 40% in multi-region deployments.'
+            'role' => 'Senior Developer (via PDMFC)',
+            'period' => '2022 — 2025',
+            'location' => 'Spain / Remote',
+            'tags' => ['Legacy Migration', 'Laravel 11', 'Nova 4', 'API Integration'],
+            'impact' => 'Orchestrated the architectural migration of the IQOS Club loyalty system from legacy PHP 7.4 to a modern Laravel 11 stack, ensuring 24/7 availability.'
         ])
         @endcomponent
     </div>

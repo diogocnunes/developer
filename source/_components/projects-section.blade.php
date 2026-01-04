@@ -11,19 +11,19 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             @include('_components.project_section', [
-                'title' => 'Judicial Data Exchange',
-                'badge' => 'GovTech',
-                'stack' => ['Laravel', 'Vue', 'Redis'],
+                'title' => 'EU e-Evidence Integration',
+                'badge' => 'Cybersecurity',
+                'stack' => ['Laravel', 'Reverse Engineering', 'Security'],
                 'link' => '/projects/judicial-data-exchange',
-                'slot' => 'A secure, encrypted platform facilitating real-time data exchange between the Public Prosecutor\'s Office and Criminal Police bodies. Engineered to handle sensitive case files with granular permission controls and immutable audit logging.'
+                'slot' => 'A pioneer integration with the European e-EDES network. Solved complex API interoperability challenges through reverse engineering to enable secure digital evidence exchange across EU borders.'
             ])
 
             @include('_components.project_section', [
-                'title' => 'Enterprise Resource Planning',
+                'title' => 'IQOS Club Modernization',
                 'badge' => 'Enterprise',
-                'stack' => ['PHP 8', 'Docker', 'AWS'],
-                'link' => '#',
-                'slot' => 'Custom ERP modules developed for multinational compliance (PMI). Streamlined supply chain logic and integrated with SAP endpoints.'
+                'stack' => ['PHP 8.3', 'Laravel Nova 4', 'Quasar'],
+                'link' => '/projects/iqos-club',
+                'slot' => 'Led the technical overhaul of a major loyalty platform. Updated core architecture to PHP 8.3 and Laravel 11, focusing on API performance and developer experience.'
             ])
         </div>
     </div>
