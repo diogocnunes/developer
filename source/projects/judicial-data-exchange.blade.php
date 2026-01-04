@@ -42,7 +42,7 @@
             <section>
                 <h2 class="text-2xl font-bold">The Architected Solution</h2>
                 <p>
-                    Built on <strong>Laravel 11</strong> and <strong>Oracle DB</strong>, the solution utilized an event-driven architecture to handle asynchronous judicial requests.
+                    Built on <strong>Laravel 8</strong> and <strong>MySQL</strong>, the solution utilized an event-driven architecture to handle asynchronous judicial requests.
                 </p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
                     <div class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-700">
