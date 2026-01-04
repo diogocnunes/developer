@@ -20,7 +20,7 @@
             <section>
                 <h2 class="text-2xl font-bold">The Challenge</h2>
                 <p>
-                    The IQOS Club platform, a vital loyalty system for Philip Morris International, was running on a legacy stack (**PHP 7.4 and Laravel Nova 2**). As the system grew in complexity and user base, the technical debt started to hinder development speed and security standards.
+                    The IQOS Club platform, a vital loyalty system for Philip Morris International, was running on a legacy stack (<strong>PHP 7.4 and Laravel Nova 2</strong>). As the system grew in complexity and user base, the technical debt started to hinder development speed and security standards.
                 </p>
                 <p>
                     The mission was to modernize the entire core without disrupting the service for thousands of users and multiple third-party API integrations.
@@ -28,48 +28,48 @@
             </section>
 
             <section class="border-l-4 border-indigo-500 pl-6 my-10">
-                <h2 class="text-2xl font-bold">Liderança & Mentoria</h2>
+                <h2 class="text-2xl font-bold">Leadership & Mentorship</h2>
                 <p>
-                    As the **Team Leader**, I didn't just write code. I was responsible for:
+                    As the <strong>Team Leader</strong>, I was responsible for more than just code delivery:
                 </p>
                 <ul class="list-disc pl-5 space-y-2">
-                    <li>**Task Orchestration:** Managing the sprint backlog and unblocking team members.</li>
-                    <li>**Technical Mentorship:** Guiding the team through the breaking changes of Laravel 11 and Nova 4.</li>
-                    <li>**Code Quality:** Reviewing complex pull requests to ensure the migration followed PSR standards and SOLID principles.</li>
+                    <li><strong>Task Orchestration:</strong> Managing the sprint backlog and unblocking team members through strategic planning.</li>
+                    <li><strong>Technical Mentorship:</strong> Guiding the engineering team through the major breaking changes of Laravel 11 and Nova 4.</li>
+                    <li><strong>Code Quality:</strong> Enforcing PSR standards and SOLID principles through rigorous code reviews and architectural oversight.</li>
                 </ul>
             </section>
 
             <section>
                 <h2 class="text-2xl font-bold">The Architected Solution</h2>
                 <p>
-                    We executed a phased migration to a bleeding-edge stack: **PHP 8.3, Laravel 11, and Laravel Nova 4**.
+                    We executed a phased migration to a bleeding-edge stack: <strong>PHP 8.3, Laravel 11, and Laravel Nova 4</strong>.
                 </p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
                     <div class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-700">
-                        <h4 class="font-bold mb-2 text-indigo-600">Upgrade Core</h4>
-                        <p class="text-sm">Refactored legacy models and resources to utilize PHP 8.3 features like constructor property promotion and readonly properties.</p>
+                        <h4 class="font-bold mb-2 text-indigo-600">Core Upgrade</h4>
+                        <p class="text-sm">Refactored legacy models to utilize PHP 8.3 features like constructor property promotion and readonly properties for cleaner code.</p>
                     </div>
                     <div class="p-4 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-100 dark:border-slate-700">
                         <h4 class="font-bold mb-2 text-indigo-600">Nova 4 Customization</h4>
-                        <p class="text-sm">Rebuilt custom fields and tools to match the new Nova 4 bridge, significantly improving the admin experience (UX).</p>
+                        <p class="text-sm">Rebuilt custom fields and tools to match the new Nova 4 bridge, significantly improving the administrative user experience (UX).</p>
                     </div>
                 </div>
             </section>
 
             <section class="bg-indigo-600 text-white p-8 rounded-2xl shadow-xl shadow-indigo-500/20">
-                <h2 class="text-2xl font-bold mb-4 text-white">Impacto Técnico & Negócio</h2>
+                <h2 class="text-2xl font-bold mb-4 text-white">Technical & Business Impact</h2>
                 <ul class="space-y-4">
                     <li class="flex items-start gap-3">
                         <svg class="w-6 h-6 text-indigo-200 mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        <span>**Future-Proofing:** Eliminated the risks associated with EOL (End-of-Life) software versions.</span>
+                        <span><strong>Future-Proofing:</strong> Eliminated security risks associated with EOL (End-of-Life) software versions.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <svg class="w-6 h-6 text-indigo-200 mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        <span>**Performance:** Achieved faster response times in API endpoints due to the transition from PHP 7.4 to 8.3.</span>
+                        <span><strong>Performance Optimization:</strong> Achieved faster response times in API endpoints through the transition to PHP 8.3.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <svg class="w-6 h-6 text-indigo-200 mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-                        <span>**Developer Velocity:** The move to Laravel 11 reduced the team's boilerplate code, allowing for faster feature delivery.</span>
+                        <span><strong>Developer Velocity:</strong> Laravel 11's streamlined structure reduced boilerplate, allowing for 25% faster feature delivery cycles.</span>
                     </li>
                 </ul>
             </section>

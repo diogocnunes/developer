@@ -40,7 +40,7 @@
                     Hosted on <span class="text-slate-200">Vercel</span>.
                 </p>
                 <p class="mt-4 text-[10px] text-slate-600 uppercase tracking-tighter">
-                    © 2025 Diogo Cambraia Nunes • Senior Laravel Dev
+                    © 2026 Diogo Cambraia Nunes • Senior Laravel Dev
                 </p>
             </div>
         </div>
