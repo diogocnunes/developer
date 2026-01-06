@@ -13,6 +13,14 @@
                 <li class="flex items-start gap-3">
                     <span class="text-indigo-500 mt-1">✔</span>
                     <div>
+                        <p class="font-bold text-slate-900 dark:text-white text-sm">Mastering AI with Gemini</p>
+                        <p class="text-xs text-slate-500">Google & Santander Open Academy • 2026</p>
+                        <p class="text-[10px] text-slate-400 mt-1 uppercase tracking-tighter">ID: OA-2026-0106002134211</p>
+                    </div>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-indigo-500 mt-1">✔</span>
+                    <div>
                         <p class="font-bold text-slate-900 dark:text-white text-sm">Scrum Fundamentals Certified (SFC)</p>
                         <p class="text-xs text-slate-500">SCRUMstudy • 2022</p>
                     </div>
