@@ -1,11 +1,19 @@
 <?php
 
 return [
-    'baseUrl' => 'https://developer-vert.vercel.app',
+    'baseUrl' => 'https://diogonunes.dev',
     'production' => true,
-    'title' => 'Diogo Nunes - Certified Laravel Developer ',
+    'title' => 'Diogo Nunes - Senior Laravel Developer',
     'description' => 'Senior Full-Stack Engineer specializing in high-security Laravel ecosystems. Building mission-critical solutions for government and global enterprises.',
+
+    'getPageTitle' => function ($page) {
+        return $page->title
+            ? $page->title . ' | Diogo Nunes'
+            : 'Diogo Nunes - Certified Laravel Developer';
+    },
+
     'collections' => [],
+
     'vite' => function ($page, $path) {
         if ($page->production) {
             static $manifest;

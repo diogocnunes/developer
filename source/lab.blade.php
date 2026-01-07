@@ -53,6 +53,33 @@
                             </li>
                         </ul>
                     </section>
+
+                    <div class="p-8 md:p-12 border-t border-slate-100 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-800/20">
+                        <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-8 text-center">Technical Deep Dive</h3>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                            <div>
+                                <h4 class="text-indigo-600 font-bold uppercase text-xs tracking-widest mb-4">The "Shadow" Logic</h4>
+                                <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">
+                                    Common AI tools struggle with large repo density. My ZSH script orchestrates a <strong>Private Engineering Vault</strong>, injecting architectural guidelines via symlinks.
+                                </p>
+                                <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                    This approach ensures <strong>Gemini 3</strong> understands the full context of Laravel 11, Pest, and Nova 4 without exposing sensitive logic to Git.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-indigo-600 font-bold uppercase text-xs tracking-widest mb-4">Autonomous Discovery</h4>
+                                <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">
+                                    Through the <code>/init</code> agent routine, the system auto-detects complex dependencies like <strong>Syncfusion</strong> and <strong>Pinia</strong>.
+                                </p>
+                                <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                                    It's not just prompting; it's <strong>Agentic Orchestration</strong> designed for mission-critical software environments.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
