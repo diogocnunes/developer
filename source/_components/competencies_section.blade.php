@@ -25,6 +25,7 @@
                 <li>Docker & Orchestration</li>
                 <li>AWS Cloud Infrastructure</li>
                 <li>CI/CD (GitLab/GitHub Actions)</li>
+                <li><span class="text-slate-900 dark:text-white font-semibold">Open Source Development</span></li>
                 <li>Data Integrity & Encryption</li>
             </ul>
         </div>

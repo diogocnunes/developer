@@ -23,11 +23,16 @@
             </div>
 
             <div>
-                <h4 class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-4">Social</h4>
+                <h4 class="text-sm font-bold uppercase tracking-widest text-slate-500 mb-4">Open Source Tools</h4>
                 <ul class="space-y-2 text-slate-300">
-                    <li><a href="https://bit.ly/diogo-linkedin" target="_blank" class="hover:text-white transition-colors">LinkedIn</a></li>
+                    <li>
+                        <a href="https://github.com/diogocnunes/ai-shadow-vault" target="_blank" class="hover:text-white transition-colors flex items-center gap-2">
+                            ai-shadow-vault
+                            <span class="text-[9px] bg-indigo-600 px-1.5 py-0.5 rounded text-white">Latest</span>
+                        </a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/diogocnunes/" target="_blank" class="hover:text-white transition-colors">LinkedIn</a></li>
                     <li><a href="https://x.com/diogocnunes" target="_blank" class="hover:text-white transition-colors">Twitter (X)</a></li>
-                    <li><a href="https://github.com/diogocnunes" target="_blank" class="hover:text-white transition-colors">GitHub</a></li>
                 </ul>
             </div>
 
