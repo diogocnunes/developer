@@ -61,18 +61,25 @@
 
 <div class="min-h-screen flex flex-col">
     <header class="py-6 container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        <a href="/" class="text-xl font-bold tracking-tight text-slate-900 dark:text-white group">
-            <span class="text-indigo-600 group-hover:text-indigo-500">~/</span>diogo-nunes
-        </a>
+        <div class="flex items-center gap-8">
+            <a href="/" class="text-xl font-bold tracking-tight text-slate-900 dark:text-white group">
+                <span class="text-indigo-600 group-hover:text-indigo-500">~/</span>diogo-nunes
+            </a>
 
-        <button @click="toggleTheme()" aria-label="Toggle Dark Mode" class="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors text-slate-600 dark:text-slate-400 focus:outline-none">
-            <svg x-show="darkMode" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-            </svg>
-            <svg x-show="!darkMode" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-            </svg>
-        </button>
+            <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+                <a href="/#projects" class="text-slate-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">Work</a>
+                <a href="/lab" class="flex items-center gap-2 text-slate-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                    Lab
+                    <span class="flex h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                </a>
+            </nav>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <a href="/contact" class="hidden sm:block text-sm font-bold text-indigo-600 dark:text-indigo-400 hover:underline">Let's Talk</a>
+            <button @click="toggleTheme()" aria-label="Toggle Dark Mode" class="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors text-slate-600 dark:text-slate-400 focus:outline-none">
+            </button>
+        </div>
     </header>
 
     <main class="flex-1">
