@@ -100,7 +100,7 @@
             </div>
 
             <div class="p-8 bg-slate-50 dark:bg-slate-800/30 border-t border-slate-100 dark:border-slate-800 text-center">
-                <p class="text-sm text-slate-500 mb-4">Interested in implementing this workflow or discussing AI orchestration at Laracon EU?</p>
+                <p class="text-sm text-slate-500 mb-4">Interested in implementing this workflow or discussing AI orchestration?</p>
                 <a href="mailto:diogocn@proton.me?subject=Lab%20Networking" class="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-all shadow-lg">
                     Let's book a technical talk
                 </a>

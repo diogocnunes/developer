@@ -12,7 +12,7 @@
             </div>
 
             <div class="group flex justify-center transition-all duration-300 hover:-translate-y-1">
-                <img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg"
+                <img src="https://cdn.simpleicons.org/vuejs/4FC08D"
                      alt="Vue.js" title="Vue.js"
                      class="h-8 w-auto grayscale group-hover:grayscale-0 transition-all">
             </div>

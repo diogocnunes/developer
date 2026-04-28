@@ -28,13 +28,6 @@
                 <li class="flex items-start gap-3">
                     <span class="text-indigo-500 mt-1">✔</span>
                     <div>
-                        <p class="font-bold text-slate-900 dark:text-white text-sm">Learning ElasticSearch 5.0</p>
-                        <p class="text-xs text-slate-500">Udemy</p>
-                    </div>
-                </li>
-                <li class="flex items-start gap-3">
-                    <span class="text-indigo-500 mt-1">✔</span>
-                    <div>
                         <p class="font-bold text-slate-900 dark:text-white text-sm">Information Security (CISIC)</p>
                         <p class="text-xs text-slate-500">NAU Platform • 2022</p>
                     </div>
